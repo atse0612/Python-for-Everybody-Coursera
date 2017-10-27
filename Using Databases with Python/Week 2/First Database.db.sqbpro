@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/atse/Documents/Python for Everybody Specialization/Using Databases with Python/Week 2/First Database.db" foreign_keys="1"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="315"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="Ages"/><default_encoding codec=""/><browsetable_info data="AAAAAQAAAAgAQQBnAGUAcwAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////AAAAAP////8="/></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE Ages ( 
+  name VARCHAR(128), 
+  age INTEGER
+)
+DELETE FROM Ages;
+INSERT INTO Ages (name, age) VALUES ('Davie', 20);
+INSERT INTO Ages (name, age) VALUES ('Daanyaal', 20);
+INSERT INTO Ages (name, age) VALUES ('Ireayomide', 19);
+INSERT INTO Ages (name, age) VALUES ('Jagat', 34);
+SELECT hex(name || age) AS X FROM Ages ORDER BY X
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
